@@ -1,18 +1,97 @@
 <!DOCTYPE html>
 <html lang="hr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Projektni zadatak iz HTML5 – osnovna struktura web stranice">
-    <meta name="keywords" content="HTML5, web stranica, projektni zadatak">
-    <meta name="author" content="Ime Prezime">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Svijet Automobila</title>
+    <meta
+      name="description"
+      content="Sve o automobilima: vrste automobila i zanimljivosti."
+    />
+    <meta
+      name="keywords"
+      content="auto, marka, vrste auta, zanimljivosti"
+    />
+    <meta name="author" content="Lovro Perkovic" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="image/favicon-auti.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <img
+          src="image/banner.png"
+          alt="Banner katalog automobila"
+          class="banner-slika"
+        />
+        <div class="banner-tekst">
+          <h1>Svijet Automobila</h1>
+          <p>Mjesto za sve ljubitelje automobila</p>
+        </div>
+      </div>
 
-    <title>Projektni zadatak – HTML5</title>
-</head>
-<body>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Početna stranica</a></li>
+          <li><a href="novosti.html">Novosti</a></li>
+          <li><a href="galerija.html">Galerija</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="onama.html">O nama</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <h1>HTML5 projektni zadatak</h1>
-    <p>Ovo je osnovna HTML5 struktura dokumenta.</p>
+    <main>
+      <section class="uvod">
+<h2>Dobrodošli u svijet automobila</h2>
+<h3>Saznajte sve o automobilima i kako se proizvode.</h3>
 
-</body>
+<p>
+  Automobili su mnogo više od prijevoznog sredstva – oni predstavljaju
+  slobodu, stil i tehnološki napredak koji oblikuje našu svakodnevicu.
+  Na ovoj stranici posvećenoj automobilima istražit ćemo različite vrste
+  vozila, njihov razvoj i način proizvodnje.
+</p>
+
+<p>
+  Od gradskih automobila i luksuznih limuzina do sportskih modela i
+  terenskih vozila, svaki automobil ima svoju priču. Saznat ćete kako
+  se dizajniraju, koje tehnologije koriste i što sve utječe na performanse
+  i sigurnost vozila.
+</p>
+
+<p>
+  Bez obzira zanimaju li vas snažni motori, moderna elektronika ili
+  ekološki prihvatljivi električni automobili, ovdje ćete pronaći
+  zanimljive informacije i inspiraciju za upoznavanje svijeta automobila.
+  Pripremite se za uzbudljivo putovanje kroz automobilsku industriju.
+</p>
+
+
+        <figure>
+          <img
+            src="image/auti-pocetna.png"
+            alt="Automobil na trkacoj stazi"
+          />
+          <figcaption>
+            Pogledajte samo dizajn ovog autmobila.
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026. Svijet Automobila.</p>
+      <div class="social-links">
+        <a
+          href="https://github.com/lovroperkovicvvg"
+          target="_blank"
+          rel="noopener"
+        >
+          <img src="image/github.png" alt="GitHub" width="32" />
+        </a>
+      </div>
+    </footer>
+  </body>
 </html>
+

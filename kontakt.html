@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Automobili - Kontakt</title>
+    <meta name="description" content="Kontaktirajte nas za pitanja o automobilima i zanimljivostima.">
+    <meta name="keywords" content="auti, kontakt, adresa"> 
+    <meta name="author" content="Ime ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/favicon-auti.png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="banner">
+    <img src="image/banner.png" alt="Banner svijeta automobila" class="banner-slika">
+    <div class="banner-tekst">
+        <h1>Svijet Automobila</h1>
+        <p>Mjesto za sve fanatike automobila</p>
+    </div>
+</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna stranica</a></li>
+            <li><a href="novosti.html">Novosti</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            <li><a href="onama.html">O nama</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+        <h1>Kontakt Forma</h1>
+    <div id="contact">
+<iframe src="https://www.google.com/maps/embed" 
+width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</iframe>
+    <section class="kontakt-info">
+        <h2>Kontakt</h2>
+        <p>Svijet Automobila</p>
+        <p>Ul. Ljudevita Posavskog 7a</p>
+        <p>10020 Zagreb, Hrvatska</p>
+
+    </section>
+
+    <section class="kontakt-forma">
+        <h3>Kontakt obrazac</h3>
+
+        <form action="#" method="post" novalidate>
+            <div class="form-grupa">
+                <label for="ime">Ime *</label>
+                <input type="text" id="ime" name="ime" required placeholder="Vaše ime">
+            </div>
+
+            <div class="form-grupa">
+                <label for="prezime">Prezime *</label>
+                <input type="text" id="prezime" name="prezime" required placeholder="Vaše prezime">
+            </div>
+
+            <div class="form-grupa">
+                <label for="email">E-mail adresa *</label>
+                <input type="email" id="email" name="email" required placeholder="vaš.email@primjer.com">
+            </div>
+
+            <div class="form-grupa">
+                <label for="drzava">Država</label>
+                <select id="drzava" name="drzava">
+                    <option value="">Odaberite državu</option>
+                    <option value="hrvatska">Hrvatska</option>
+                    <option value="slovenija">Slovenija</option>
+                    <option value="srbija">Srbija</option>
+                    <option value="bih">Bosna i Hercegovina</option>
+                    <option value="ostalo">Ostalo</option>
+                </select>
+            </div>
+
+            <div class="form-grupa">
+                <label for="opis">Opis</label>
+                <textarea id="opis" name="opis" rows="5" placeholder="Pitajte nas sve o automobilima..."></textarea>
+            </div>
+
+            <div class="form-gumbi">
+                <button type="submit">Pošalji</button>
+                <button type="reset">Obriši</button>
+            </div>
+        </form>
+    </section>
+</main>
+
+    <footer>
+      <p>&copy; 2026. Svijet Automobila.</p>
+      <div class="social-links">
+        <a
+          href="https://github.com/lovroperkovicvvg"
+          target="_blank"
+          rel="noopener"
+        >
+          <img src="image/github.png" alt="GitHub" width="32" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
